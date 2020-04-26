@@ -53,7 +53,7 @@ try:
     thread.start_new_thread(playSound, ("BuzzerThread1", 0.01))
     while True:
         print ("There is an object approaching.")
-        print ("In metres, its distance away is only:")
+        print ("In centimetres, its distance away is only:")
         print(distance)
         time.sleep(0.1)
  l;m       distance = measureDistance()
